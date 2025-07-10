@@ -1,0 +1,14 @@
+<div id="root"></div>
+
+{{ 'bagel-builder.js' | asset_url | script_tag }}
+
+{%- comment -%} Remove the next line if you did NOT copy a CSS file {%- endcomment -%}
+{{ 'bagel-builder.css' | asset_url | stylesheet_tag }}
+
+{% schema %}
+{
+  "name": "Bagel Builder",
+  "target": "section",
+  "settings": []
+}
+{% endschema %}
