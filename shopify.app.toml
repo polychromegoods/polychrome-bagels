@@ -20,10 +20,7 @@ api_version = "2025-07"
   [[webhooks.subscriptions]]
   topics = [ "app/uninstalled" ]
   uri = "/webhooks/app/uninstalled"
-[app_proxy]
-url = "apps/polychrome-bagels"
-subpath = "apps/polychrome-bagels"
-prefix = "/apps"
+
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
